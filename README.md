@@ -1,4 +1,4 @@
-# COSC415-orders-app
+# DormDine
 ## Overview
 This application is designed for handling orders within a restaurant setting. It includes features for browsing menu items, managing a shopping cart, and customer profiles.
 
