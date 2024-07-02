@@ -43,3 +43,7 @@
    cd foodie
    
 2. Install the required gems:
+   ```bash
+   bundle install
+   
+3. Setup the database:
