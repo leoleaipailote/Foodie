@@ -47,3 +47,45 @@
    bundle install
    
 3. Setup the database:
+   ```bash
+   rails db:create db:migrate
+
+4. Start the server:
+   ```bash
+   rails server
+
+
+Visit `http://localhost:3000` to view the application.
+
+### Usage
+
+#### Customers
+1. Sign up and confirm your email.
+2. Browse local restaurants and add items to your cart.
+3. Complete the checkout process via Stripe.
+4. Track your order status and leave reviews for restaurants.
+
+#### Restaurant Owners
+1. Sign up and confirm your email.
+2. Create/login to your Stripe account.
+3. Customize your restaurant menu.
+4. Manage incoming orders and update their statuses.
+
+### Testing
+
+To run the tests, execute:
+  ```bash
+  rails test
+  ```
+
+
+### Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
